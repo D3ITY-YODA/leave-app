@@ -1,4 +1,3 @@
-cat > /workspaces/leave-app/leave-app/README.md << 'EOF'
 # Leave Management System
 
 A simple leave application module built with Laravel and SQLite. Employees can submit leave requests, view their leave history, and cancel pending applications.
