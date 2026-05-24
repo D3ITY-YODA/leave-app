@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leave Management</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <style>
         * { box-sizing: border-box; }
 
@@ -481,9 +482,9 @@
         </div>
         <div class="sidebar-footer">
             <div class="d-flex align-items-center gap-2">
-                <div class="user-avatar">JM</div>
+                <div class="user-avatar">BA</div>
                 <div>
-                    <div class="user-name">James Mwangi</div>
+                    <div class="user-name">Brendan Akudo</div>
                     <div class="user-role">Software Engineer</div>
                 </div>
             </div>
@@ -511,7 +512,7 @@
 
             <!-- Hero -->
             <div class="hero mb-4">
-                <h5>Welcome back, James &#128075;</h5>
+                <h5>Welcome back, Brendan &#128075;</h5>
                 <p>You have <strong>{{ $leaves->where('status', 'Pending')->count() }} pending</strong> application(s) and <strong style="color:#3b82f6">14 annual leave days</strong> remaining this year.</p>
             </div>
 
